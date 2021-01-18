@@ -122,7 +122,7 @@
         font-size: 19px;
         outline-style: none;
         border-radius: 3px;
-        padding: 0 50px;
+        padding: 0;
 }
     &__input_username{
 //        background-image: url(../img/dude.png);
@@ -131,9 +131,28 @@
         
         &:placeholder-shown{
             background-image: url(../img/dude.png);
+            padding: 0px 50px;
         }
         
     }
+    &__input_email{
+        background-repeat: no-repeat;
+        background-position: 15px center;
+        &:placeholder-shown{
+            background-image: url(../img/input_mail.png);
+            padding: 0 50px;
+        }
+    }
+    
+    &__input_phonenumber{
+        background-repeat: no-repeat;
+        background-position: 15px center;
+        &:placeholder-shown{
+            background-image: url(../img/input_phone2.png);
+            padding: 0 50px;
+        }
+    }
+    
     &__request_btn{
         background: #FFBB42;
         border: none;
