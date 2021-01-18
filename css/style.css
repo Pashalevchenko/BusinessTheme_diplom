@@ -110,6 +110,15 @@
   border: none;
   font-size: 19px;
   outline-style: none;
+  border-radius: 3px;
+  padding: 0 50px;
+}
+.banner__input_username {
+  background-repeat: no-repeat;
+  background-position: 15px center;
+}
+.banner__input_username:placeholder-shown {
+  background-image: url(../img/dude.png);
 }
 .banner__request_btn {
   background: #FFBB42;

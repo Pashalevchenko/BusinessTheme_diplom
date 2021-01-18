@@ -121,7 +121,19 @@
         border: none;
         font-size: 19px;
         outline-style: none;
+        border-radius: 3px;
+        padding: 0 50px;
 }
+    &__input_username{
+//        background-image: url(../img/dude.png);
+        background-repeat: no-repeat;
+        background-position: 15px center;
+        
+        &:placeholder-shown{
+            background-image: url(../img/dude.png);
+        }
+        
+    }
     &__request_btn{
         background: #FFBB42;
         border: none;
@@ -130,7 +142,7 @@
         color: #fff;
         &:hover{
             cursor: pointer;
-        }
+        } 
         
     }
     &__laptop{
