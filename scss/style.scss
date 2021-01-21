@@ -125,16 +125,16 @@
         padding: 0;
 }
     &__input_username{
-//        background-image: url(../img/dude.png);
         background-repeat: no-repeat;
         background-position: 15px center;
-        
         &:placeholder-shown{
             background-image: url(../img/dude.png);
             padding: 0px 50px;
         }
         
+        
     }
+   
     &__input_email{
         background-repeat: no-repeat;
         background-position: 15px center;
