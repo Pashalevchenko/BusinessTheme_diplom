@@ -111,31 +111,22 @@
   font-size: 19px;
   outline-style: none;
   border-radius: 3px;
-  padding: 0;
+  padding: 0 50px;
 }
 .banner__input_username {
   background-repeat: no-repeat;
   background-position: 15px center;
-}
-.banner__input_username:placeholder-shown {
   background-image: url(../img/dude.png);
-  padding: 0px 50px;
 }
 .banner__input_email {
   background-repeat: no-repeat;
   background-position: 15px center;
-}
-.banner__input_email:placeholder-shown {
   background-image: url(../img/input_mail.png);
-  padding: 0 50px;
 }
 .banner__input_phonenumber {
   background-repeat: no-repeat;
   background-position: 15px center;
-}
-.banner__input_phonenumber:placeholder-shown {
   background-image: url(../img/input_phone2.png);
-  padding: 0 50px;
 }
 .banner__request_btn {
   background: #FFBB42;
