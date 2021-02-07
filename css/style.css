@@ -592,11 +592,19 @@
   width: 310px;
   outline-style: none;
   color: #a9a9a9;
+  padding: 0 50px;
+  background-image: url(../img/dude.png);
+  background-repeat: no-repeat;
+  background-position: 15px center;
 }
 .newsletter__inputs_email {
   width: 388px;
   outline-style: none;
   color: #a9a9a9;
+  padding: 0 50px;
+  background-image: url(../img/input_mail.png);
+  background-repeat: no-repeat;
+  background-position: 15px center;
 }
 .newsletter__button {
   width: 220px;
