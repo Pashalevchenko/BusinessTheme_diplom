@@ -204,8 +204,14 @@
     &__img{
         width: 205px;
         padding-right: 18px;
-
+        filter: invert(1)
     }
+    
+    &__img1{
+        
+             
+    }
+     
     
     &__block{
         width: 530px;
@@ -213,6 +219,12 @@
         box-sizing: border-box;
         display: flex;
         padding-top: 80px;
+        transition: 0.5s;
+        &:hover{
+            filter: invert(1);
+            
+            
+        }
     }
     
     

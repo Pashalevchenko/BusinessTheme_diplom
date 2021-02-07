@@ -173,6 +173,7 @@
 .service__img {
   width: 205px;
   padding-right: 18px;
+  filter: invert(1);
 }
 .service__block {
   width: 530px;
@@ -180,6 +181,10 @@
   box-sizing: border-box;
   display: flex;
   padding-top: 80px;
+  transition: 0.5s;
+}
+.service__block:hover {
+  filter: invert(1);
 }
 .service__text {
   font-family: 'OpenSans-Regular';
