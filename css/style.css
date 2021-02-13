@@ -63,7 +63,7 @@
   text-decoration: none;
   font-size: 13.5px;
   color: #868686;
-  transition: 0.6s;
+  transition: background 0.6s;
   padding: 10px 18px;
   border-radius: 5px;
   text-transform: uppercase;
@@ -181,7 +181,7 @@
   box-sizing: border-box;
   display: flex;
   padding-top: 80px;
-  transition: 0.5s;
+  transition: filter 0.5s;
 }
 .service__block:hover {
   filter: invert(1);
@@ -239,7 +239,7 @@
   color: #fff;
   padding: 15px 20px;
   font-size: 14px;
-  transition: 0.5s;
+  transition: background 0.5s;
   border: 1px solid #FFC155;
   font-family: 'Lato-Regular';
 }
@@ -688,7 +688,7 @@
   text-transform: uppercase;
   padding: 10px 15px;
   font-weight: 500;
-  transition: 0.4s;
+  transition: color 0.4s;
   border-radius: 3px;
 }
 .footer_manu__links:hover {
