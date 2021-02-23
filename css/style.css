@@ -134,6 +134,7 @@
   width: 210px;
   height: 44px;
   color: #fff;
+  outline: none;
 }
 .banner__request_btn:hover {
   cursor: pointer;
@@ -242,6 +243,7 @@
   transition: background 0.5s;
   border: 1px solid #FFC155;
   font-family: 'Lato-Regular';
+  outline: none;
 }
 .about_us__button:hover {
   border: 1px solid #E7AD48;
@@ -729,6 +731,74 @@
 .footer_manu__copyright_text {
   color: #fff;
   font-size: 13px;
+}
+
+.slider {
+  width: 600px;
+  position: relative;
+}
+
+.slick-arrow {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  position: absolute;
+  top: calc(50% - 10px);
+  border: none;
+  outline: none;
+  z-index: 1;
+  font-size: 0;
+}
+
+.slick-arrow:after {
+  position: absolute;
+  width: 12px;
+  height: 12px;
+  background: url("../img/slider_arrow.png") center no-repeat;
+  background-size: contain;
+  top: 4px;
+  left: 4px;
+  z-index: 1;
+}
+
+.slick-prev {
+  left: -80px;
+  transform: scaleX(-1);
+}
+
+.slick-next {
+  right: -80px;
+}
+
+.slick-dots {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: -25px;
+  display: flex;
+  list-style: none;
+  -ms-align-items: center;
+  align-items: center;
+  justify-content: center;
+}
+
+.slick-dots li {
+  padding: 5px;
+}
+
+.slick-dots button {
+  width: 4px;
+  height: 4px;
+  background-color: #ddd;
+  border-radius: 50%;
+  outline: none;
+  border: 0;
+  font-size: 0;
+  cursor: pointer;
+}
+
+.slick-dots .slick-active button {
+  background-color: #08c;
 }
 
 /*# sourceMappingURL=style.css.map */

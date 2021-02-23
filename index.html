@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <title>BusinessTheme</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css">
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
@@ -41,7 +42,9 @@
               </button>
                
            </div>
-           <div class="banner__laptop">
+           <div class="banner__laptop slider">
+               <img src="img/Laptop.png" alt="" class="banner__slider_item">
+               <img src="img/Laptop.png" alt="">
                <img src="img/Laptop.png" alt="">
            </div>
        </div>
@@ -367,6 +370,23 @@
             </div>
         </footer>
     </section>
+
+    
+    
+    
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
+    
+    <script>
+    
+   $('.slider').slick({
+			slidesToShow: 1,
+  		slidesToScroll: 1,
+			dots: true
+		});
+    
+    </script>
     
     
 </body>
