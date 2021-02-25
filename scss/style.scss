@@ -130,19 +130,12 @@
         background-position: 15px center; 
         background-image: url(../img/dude.png);
         
-        
-        
-        
-        
-        
     }
    
     &__input_email{
         background-repeat: no-repeat;
         background-position: 15px center;
         background-image: url(../img/input_mail.png);
-            
-        
     }
     
     &__input_phonenumber{
@@ -167,6 +160,9 @@
     }
     &__laptop{
         margin-top: 47px;
+    }
+    &__slider_item{
+        outline: none;
     }
 
 }
@@ -690,7 +686,8 @@
         background-image: url(../img/dude.png);
         background-repeat: no-repeat;
         background-position: 15px center;
-        
+        border: 1px solid #464242;
+        border-radius: 1px
         
     }
     &__inputs_email{
@@ -701,6 +698,9 @@
         background-image: url(../img/input_mail.png);
         background-repeat: no-repeat;
         background-position: 15px center;
+        border: 1px solid #464242;
+        border-radius: 1px;
+        ;
     }
     &__button{
         width: 220px;
@@ -708,10 +708,11 @@
         background: #FFBB42;
         border: none;
         width: 210px;
-        height: 44px;
+        height: 48px;
         color: #fff;
         &:hover{
-            cursor: pointer;
+        cursor: pointer;
+        
         }
     }
     &__subscribr_btn{ 
@@ -843,30 +844,19 @@
 
 
 .slick-arrow{
-	width: 20px;
-	height: 20px;
+	width: 25px;
+	height: 25px;
 	border-radius: 50%;
 	position: absolute;
 	top: calc(50% - 10px);
 	border: none;
 	outline: none;
-	z-index: 1;
 	font-size: 0;
-    
-
-
+    background: url('../img/slider_arrow.png') center no-repeat;
+    background-size: contain;
+    cursor: pointer;
 }
 
-.slick-arrow:after{
-	position: absolute;
-	width: 12px;
-	height: 12px;
-	background: url('../img/slider_arrow.png') center no-repeat;
-	background-size: contain;
-	top: 4px;
-	left: 4px;
-    z-index: 1;
-}
 
 .slick-prev{
 	left: -80px;
@@ -885,7 +875,7 @@
 	bottom: -25px;
 	display: flex;
 	list-style: none;
-	-ms-align-items: center;
+	align-items: center;
 	align-items: center;
 	justify-content: center;
     
@@ -893,25 +883,26 @@
 }
 
 .slick-dots li{
-	padding: 5px;
+	padding: 6px;
+    margin: -20px 0;
 }
 
 .slick-dots button{
-	width: 4px;
-	height: 4px;
-	background-color: #ddd;
+	width: 10px;
+	height: 10px;
+	background-color: #fff;
 	border-radius: 50%;
 	outline: none;
-	border: 0;
 	font-size: 0;
 	cursor: pointer;
-//    border: 1px solid #ddd;
-//    opacity: 1
+    border: 3px solid #cbd0d2;
+    box-sizing: content-box;
 }
 
 
 .slick-dots .slick-active button{
-	background-color: #08c;
+	border: 3px solid #08c;
+    box-sizing: content-box;
 }
 
 
