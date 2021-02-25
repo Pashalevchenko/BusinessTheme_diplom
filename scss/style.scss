@@ -710,6 +710,7 @@
         width: 210px;
         height: 48px;
         color: #fff;
+        outline: none;
         &:hover{
         cursor: pointer;
         
@@ -786,7 +787,7 @@
         text-transform: uppercase;
         padding: 10px 15px;
         font-weight: 500;
-        transition: color 0.4s;
+        transition: 0.4s;
         border-radius: 3px;
         &:hover{
             background: #FFBB42;
