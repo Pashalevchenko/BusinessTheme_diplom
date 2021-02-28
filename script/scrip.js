@@ -1,5 +1,4 @@
 let button = document.querySelector('.banner__request_btn')
-let userName = document.querySelector('.banner__input_username')
 button.addEventListener('click', sendRequest)
 
 
@@ -13,3 +12,12 @@ function sendRequest(){
     }
    
 
+let footerButton = document.querySelector('.newsletter__subscribr_btn')
+footerButton.addEventListener('click', footerBtn)
+
+function footerBtn(){
+    let name1 = name.value;
+    let email1 = email.value;
+    console.log('Имя: ' + name1)
+    console.log('Email: ' + email1)
+}
